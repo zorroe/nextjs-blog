@@ -9,7 +9,10 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Zorroe. I'm a software engineer</p>
+        <p>
+          Hello, I'm Zorroe. I'm a software engineer. you can find me {''}{' '}
+          <a href="https://zorroe.github.io/">here</a>
+        </p>
       </section>
     </Layout>
   )
